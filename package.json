@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node ."
   },
+  "engines": {
+    "node": "8.17.0"
+  },
   "repository": "git@github.com:NTag/lyrics.ovh.git",
   "author": "Basile Bruneau <basilebruneau@gmail.com>",
   "license": "GPL-3.0",
