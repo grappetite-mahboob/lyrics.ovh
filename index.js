@@ -6,7 +6,7 @@ var things = [];
 let appApi = express();
 let appFrontend = express();
 const portApi = 8080;
-const portFrontend = 8080;
+// const portFrontend = 8080;
 
 appApi.use(cors());
 
@@ -34,12 +34,12 @@ appApi.get("/suggest/:term", function (req, res) {
   });
 });
 
-appFrontend.use(express.static("frontend"));
+// appFrontend.use(express.static("frontend"));
 
 appApi.listen(portApi, function () {
   console.log("API listening on port " + portApi);
 });
 
-appFrontend.listen(portFrontend, function () {
-  console.log("Frontend listening on port " + portFrontend);
-});
+// appFrontend.listen(portFrontend, function () {
+//   console.log("Frontend listening on port " + portFrontend);
+// });
