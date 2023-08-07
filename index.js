@@ -5,7 +5,7 @@ const cors = require("cors");
 var things = [];
 let appApi = express();
 let appFrontend = express();
-const portApi = 8080;
+const portApi = process.env.PORT;
 // const portFrontend = 8080;
 
 appApi.use(cors());
