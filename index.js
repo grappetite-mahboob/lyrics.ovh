@@ -6,7 +6,7 @@ var things = [];
 let appApi = express();
 let appFrontend = express();
 const portApi = 8080;
-const portFrontend = 8081;
+const portFrontend = 8080;
 
 appApi.use(cors());
 
