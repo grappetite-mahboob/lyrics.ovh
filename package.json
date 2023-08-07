@@ -4,7 +4,7 @@
   "description": "Only the lyrics",
   "main": "index.js",
   "scripts": {
-    "start": "node ."
+    "start": "node index.js"
   },
   "engines": {
     "node": "8.17.0"
