@@ -10,13 +10,14 @@
     "node": "8.17.0"
   },
   "repository": "git@github.com:NTag/lyrics.ovh.git",
-  "author": "Basile Bruneau <basilebruneau@gmail.com>",
+"author": "Basile Bruneau <basilebruneau@gmail.com>",
   "license": "GPL-3.0",
   "dependencies": {
-    "alltomp3": "0.2.12",
+    "alltomp3": "https://github.com/AllToMP3/alltomp3",
     "cors": "^2.8.1",
     "express": "^4.14.0",
     "request": "^2.79.0",
     "request-promise": "^4.1.1"
   }
 }
+
